@@ -2,6 +2,8 @@
 
 * {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,14 +13,27 @@ body {
 .header {
   background-color: #2c2c2c;
   color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
 .section {
-  border-radius: 5px;
+  border-radius: 10px;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.section_element {
+  margin: 20px 0;
 }
 
 .about {
   background-color: #ced5d9;
+}
+.about ul {
+  margin-left: 20px;
 }
 
 .articles {
