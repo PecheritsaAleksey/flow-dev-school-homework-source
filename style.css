@@ -38,7 +38,6 @@ button:hover {
   background-color: #2c2c2c;
   color: #fff;
   margin-bottom: 20px;
-  padding: 10px;
 }
 
 .section {
@@ -92,4 +91,43 @@ button:hover {
 .form label {
   flex: 1;
   align-self: center;
+}
+
+.table {
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #3d4268;
+  color: #fff;
+}
+
+.navigation {
+  height: 60px;
+}
+
+.navigation a {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+
+.navigation li {
+  display: flex;
+  padding: 0 10px;
+}
+
+.navigation li:hover {
+  background-color: #838688;
 }
